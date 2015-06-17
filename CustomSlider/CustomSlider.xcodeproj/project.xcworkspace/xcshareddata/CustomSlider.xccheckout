@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>FC33C433-6C8B-47BD-9BAA-3CFAE9B76874</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>CustomSlider</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>88200BDAD3323DAB0193399EAF0B41A4405B48FA</key>
 		<string>https://github.com/haiwei-Lee/CustomSlider.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CustomSlider/CustomSlider.xcodeproj/project.xcworkspace</string>
+	<string>CustomSlider/CustomSlider.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>88200BDAD3323DAB0193399EAF0B41A4405B48FA</key>

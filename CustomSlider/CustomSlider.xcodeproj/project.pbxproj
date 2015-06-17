@@ -13,6 +13,9 @@
 		9B908AEC1B31532300C0116F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B908AEB1B31532300C0116F /* Images.xcassets */; };
 		9B908AEF1B31532300C0116F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B908AED1B31532300C0116F /* LaunchScreen.xib */; };
 		9B908AFB1B31532400C0116F /* CustomSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B908AFA1B31532400C0116F /* CustomSliderTests.swift */; };
+		9B908B051B31578500C0116F /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B908B041B31578500C0116F /* RangeSlider.swift */; };
+		9B908B071B316E5700C0116F /* RangeSliderThumbLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B908B061B316E5700C0116F /* RangeSliderThumbLayer.swift */; };
+		9B908B091B31754F00C0116F /* RangeSliderTrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B908B081B31754F00C0116F /* RangeSliderTrackLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		9B908AF41B31532400C0116F /* CustomSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B908AF91B31532400C0116F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B908AFA1B31532400C0116F /* CustomSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSliderTests.swift; sourceTree = "<group>"; };
+		9B908B041B31578500C0116F /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		9B908B061B316E5700C0116F /* RangeSliderThumbLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSliderThumbLayer.swift; sourceTree = "<group>"; };
+		9B908B081B31754F00C0116F /* RangeSliderTrackLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSliderTrackLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				9B908AE41B31532300C0116F /* AppDelegate.swift */,
 				9B908AE61B31532300C0116F /* ViewController.swift */,
+				9B908B041B31578500C0116F /* RangeSlider.swift */,
+				9B908B061B316E5700C0116F /* RangeSliderThumbLayer.swift */,
+				9B908B081B31754F00C0116F /* RangeSliderTrackLayer.swift */,
 				9B908AE81B31532300C0116F /* Main.storyboard */,
 				9B908AEB1B31532300C0116F /* Images.xcassets */,
 				9B908AED1B31532300C0116F /* LaunchScreen.xib */,
@@ -213,7 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B908AE71B31532300C0116F /* ViewController.swift in Sources */,
+				9B908B091B31754F00C0116F /* RangeSliderTrackLayer.swift in Sources */,
+				9B908B051B31578500C0116F /* RangeSlider.swift in Sources */,
 				9B908AE51B31532300C0116F /* AppDelegate.swift in Sources */,
+				9B908B071B316E5700C0116F /* RangeSliderThumbLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +421,7 @@
 				9B908B001B31532400C0116F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B908B011B31532400C0116F /* Build configuration list for PBXNativeTarget "CustomSliderTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				9B908B031B31532400C0116F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
