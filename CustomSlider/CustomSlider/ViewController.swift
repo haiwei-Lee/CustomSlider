@@ -20,8 +20,13 @@ class ViewController: UIViewController {
     
     rangeSlider.addTarget(self, action: "rangeSliderValueChanged:", forControlEvents: .ValueChanged)
     
+    let time = dispatch_time(DISPATCH_TIME_NOW, Int64(NSEC_PER_SEC))
     
-    // Do any additional setup after loading the view, typically from a nib.
+    dispatch_after(time, dispatch_get_main_queue()) { () -> Void in
+      self.rangeSlider.trackHeighlightTintColor = UIColor.redColor()
+      self.rangeSlider.curvaceousness = 0.0
+    }
+       // Do any additional setup after loading the view, typically from a nib.
   }
   
   override func viewDidLayoutSubviews() {
